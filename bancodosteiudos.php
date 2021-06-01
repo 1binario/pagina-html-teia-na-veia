@@ -1,7 +1,7 @@
 
 <?php
-            $nome = beto
-            $idade = 41
-            $email = humbertocbranco@gmail.com
+            $nome = 
+            $idade = 
+            $email = 
             echo "$nome tem $idade anos e o email $email";
             ?>
