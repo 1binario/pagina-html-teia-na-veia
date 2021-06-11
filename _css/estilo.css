@@ -1,13 +1,22 @@
 @charset "utf-8";
 
-        body, ul {
+        body 
+        background-image: url("../_imagens/spd background\ painel-festa-1x0-70cm-homem-aranha-banner.jpg")
+    }
+    p{
+        
+        text-align: justify;
+        text-indent: 50px;
+
+    }
+        ul {
             color: snow;
             margin: 0px;
             padding: 0px;
 
             a {
                 color: black;
-                text-decoration: nome;
+                text-decoration: none;
                 font-family: sans-serif;
             }
             a:hover {
@@ -17,14 +26,27 @@
                 font-size: 1.5rem;
                 font-weight: bold;
             }
+            #header {
+                box-sizing: border-box;
+                height: 70px;
+                padding: 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background: #e7e7e7;
+            }
+            #menu{
+
+                display: flex;
+                list-style: none;
+                gap: .5rem;
+            }
+            #menu a {
+                display: block;
+                padding: .5rem;
+
+            }
             /*background-color: blue;
             color: rgba(red, green, blue, alpha); */
-            background-image: url("../_imagens/spd background\ painel-festa-1x0-70cm-homem-aranha-banner.jpg")
-        }
-        p{
-            
-            text-align: justify;
-            text-indent: 50px;
-
-        }
+           
         
