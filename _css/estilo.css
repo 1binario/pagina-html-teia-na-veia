@@ -1,7 +1,22 @@
 @charset "utf-8";
 
-        body {
+        body, ul {
             color: snow;
+            margin: 0px;
+            padding: 0px;
+
+            a {
+                color: black;
+                text-decoration: nome;
+                font-family: sans-serif;
+            }
+            a:hover {
+                background: rgba(red, green, blue, alpha);
+            }
+            #logo {
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
             /*background-color: blue;
             color: rgba(red, green, blue, alpha); */
             background-image: url("../_imagens/spd background\ painel-festa-1x0-70cm-homem-aranha-banner.jpg")
